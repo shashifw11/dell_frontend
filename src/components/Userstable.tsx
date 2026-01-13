@@ -1,6 +1,6 @@
 import React from "react";
 
-/* ---------- TYPES ---------- */
+
 export type User = {
   id: number;
   name: string;
@@ -17,7 +17,7 @@ type Props = {
   users: User[];
 };
 
-/* ---------- COMPONENT ---------- */
+
 const UsersTable: React.FC<Props> = ({ users }) => {
   return (
     <table border={1} cellPadding={8}>
